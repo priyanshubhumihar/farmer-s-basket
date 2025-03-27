@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="account-container">
+        <h2>Account Details</h2>
+        <div class="account-info">
+            <p><strong>Username:</strong> <span id="username">JohnDoe</span></p>
+            <p><strong>Email ID:</strong> <span id="email">johndoe@example.com</span></p>
+            <p><strong>Orders:</strong></p>
+            <ul id="order-list">
+                <li>Order #1234 - Delivered</li>
+                <li>Order #5678 - In Progress</li>
+                <li>Order #9101 - Shipped</li>
+            </ul>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- CSS: styles.css -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+    .account-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    button {
+        padding: 10px 20px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background: darkred;
+    }
+</style>
+
+<!-- JavaScript: script.js -->
+<script>
+    document.getElementById("logout-btn").addEventListener("click", function() {
+        alert("You have been logged out.");
+        window.location.href = "login.html"; // Redirect to login page
+    });
+</script>
