@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Vegetable Products - Ecommerce Grocery Store</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo1.webp" alt="GroceryStore" width="125px" /></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="registration.html">Register</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <a href="cart.html">
+                            <img src="img/logo5.png" alt="" width="30px" height="30px" />
+                            <span class="cart-count"></span>
+                        </a>
+                    </ul>
+                </nav>
+               <!---- <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />-->
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Vegetable Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/brocoli.webp" alt="Broccoli" />
+                <h4>Fresh Broccoli</h4>
+                <p>₹30.00</p>
+                <button onclick="addToCart('Fresh Broccoli', 30)">Add to Cart</button>
+            </div>
+
+            <div class="col-4">
+                <img src="img/carrots.webp" alt="Carrots" />
+                <h4>Fresh Carrots</h4>
+                <p>₹40.00</p>
+                <button onclick="addToCart('Fresh Carrots', 40)">Add to Cart</button>
+            </div>
+
+            <div class="col-4">
+                <img src="img/spinich.webp" alt="Spinach" />
+                <h4>Fresh Spinach</h4>
+                <p>₹25.00</p>
+                <button onclick="addToCart('Fresh Spinach', 25)">Add to Cart</button>
+            </div>
+
+            <div class="col-4">
+                <img src="img/potatos.webp" alt="Potatoes" />
+                <h4>Potatoes</h4>
+                <p>₹30.00</p>
+                <button onclick="addToCart('Potatoes', 30)">Add to Cart</button>
+            </div>
+
+            <!-- Additional Vegetable Products -->
+            <div class="col-4">
+                <img src="img/cabbage.jpeg" alt="Cabbage" />
+                <h4>Fresh Cabbage</h4>
+                <p>₹35.00</p>
+                <button onclick="addToCart('Fresh Cabbage', 35)">Add to Cart</button>
+            </div>
+
+            <div class="col-4">
+                <img src="img/images (4).jpeg" alt="Cauliflower" />
+                <h4>Fresh Cauliflower</h4>
+                <p>₹50.00</p>
+                <button onclick="addToCart('Fresh Cauliflower', 50)">Add to Cart</button>
+            </div>
+
+            <div class="col-4">
+                <img src="img/Zucchini.jpg" alt="Zucchini" />
+                <h4>Fresh Zucchini</h4>
+                <p>₹45.00</p>
+                <button onclick="addToCart('Fresh Zucchini', 45)">Add to Cart</button>
+            </div>
+
+            <div class="col-4">
+                <img src="img/images (5).jpeg" alt="Bell Pepper" />
+                <h4>Fresh Bell Pepper</h4>
+                <p>₹60.00</p>
+                <button onclick="addToCart('Fresh Bell Pepper', 60)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play.jpeg" alt="Play Store" />
+                        <img src="img/app1.png" alt="App Store" />
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="img/logo1.webp" alt="GroceryStore" />
+                    <p>
+                        Our Purpose Is To Sustainably Make the Pleasure and Benefits of Grocery Shopping Accessible to Everyone.
+                    </p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright &copy; 2023 - piyush raj</p>
+        </div>
+    </div>
+
+    <script src=".js/index.js"></script>
+</body>
+
+</html>

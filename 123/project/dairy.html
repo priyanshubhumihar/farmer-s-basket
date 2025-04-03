@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dairy.css" />
+    <title>Dairy Products - Ecommerce Grocery Store</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo1.webp" alt="GroceryStore" width="125px" /></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="registration.html">Register</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <a href="cart.html">
+                            <img src="img/logo5.png" alt="" width="30px" height="30px" />
+                            <span class="cart-count"></span>
+                        </a>
+                    </ul>
+                </nav>
+                <!--<img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />-->
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Dairy Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/milk.webp" alt="Milk" />
+                <h4>Fresh Milk</h4>
+                <p>₹50.00</p>
+                <a href="#" class="btn" onclick="addToCart('Fresh Milk', 50)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/cheese.webp" alt="Cheese" />
+                <h4>Cheddar Cheese</h4>
+                <p>₹200.00</p>
+                <a href="#" class="btn" onclick="addToCart('Cheddar Cheese', 200)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/greek.webp" alt="Yogurt" />
+                <h4>Greek Yogurt</h4>
+                <p>₹80.00</p>
+                <a href="#" class="btn" onclick="addToCart('Greek Yogurt', 80)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/butter.webp" alt="Butter" />
+                <h4>Unsalted Butter</h4>
+                <p>₹150.00</p>
+                <a href="#" class="btn" onclick="addToCart('Unsalted Butter', 150)">Add to Cart</a>
+            </div>
+
+            <!-- Additional Dairy Products -->
+            <div class="col-4">
+                <img src="img/cream.webp" alt="Cream" />
+                <h4>Fresh Cream</h4>
+                <p>₹120.00</p>
+                <a href="#" class="btn" onclick="addToCart('Fresh Cream', 120)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/icecream.webp" alt="Ice Cream" />
+                <h4>Vanilla Ice Cream</h4>
+                <p>₹250.00</p>
+                <a href="#" class="btn" onclick="addToCart('Vanilla Ice Cream', 250)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/wcream.webp" alt="Whipped Cream" />
+                <h4>Whipped Cream</h4>
+                <p>₹90.00</p>
+                <a href="#" class="btn" onclick="addToCart('Whipped Cream', 90)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/cheesecake.webp" alt="Cheesecake" />
+                <h4>Cheesecake</h4>
+                <p>₹300.00</p>
+                <a href="#" class="btn" onclick="addToCart('Cheesecake', 300)">Add to Cart</a>
+            </div>
+
+            <!-- More Additional Dairy Products -->
+            <div class="col-4">
+                <img src="img/Cream Cheese.webp" alt="Cream Cheese" />
+                <h4>Cream Cheese</h4>
+                <p>₹180.00</p>
+                <a href="#" class="btn" onclick="addToCart('Cream Cheese', 180)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/bluecheese.webp" alt="Blue Cheese" />
+                <h4>Blue Cheese</h4>
+                <p>₹250.00</p>
+                <a href="#" class="btn" onclick="addToCart('Blue Cheese', 250)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/images (2).jpeg" alt="Ricotta Cheese" />
+                <h4>Ricotta Cheese</h4>
+                <p>₹220.00</p>
+                <a href="#" class="btn" onclick="addToCart('Ricotta Cheese', 220)">Add to Cart</a>
+            </div>
+
+            <div class="col-4">
+                <img src="img/fmilk.jpg" alt="Fermented Milk" />
+                <h4>Fermented Milk</h4>
+                <p>₹70.00</p>
+                <a href="#" class="btn" onclick="addToCart('Fermented Milk', 70)">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play.jpeg" alt="Play Store" />
+                        <img src="img/app1.png" alt="App Store" />
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="img/logo1.webp" alt="GroceryStore" />
+                    <p>
+                        Our Purpose Is To Sustainably Make the Pleasure and Benefits of Grocery Shopping Accessible to Everyone.
+                    </p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright &copy; 2023 - piyush raj</p>
+        </div>
+    </div>
+
+    <script src=".js/dairy.js"></script>
+</body>
+
+</html>
